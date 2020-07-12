@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:background="@drawable/moviebox"
+        android:clickable="true"
+        android:elevation="4dp">                                                  >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:id="@+id/movieImageView"
+            android:elevation="8dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:elevation="5dp"
+            >
+            <TextView
+                android:id="@+id/movieNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="movieName"
+                android:elevation="4dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:clickable="true"
+
+                />
+            <TextView
+                android:id="@+id/watchNowTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch Now"
+                android:textSize="24sp"
+                android:textAlignment="center"
+
+                android:layout_margin="5dp"
+                android:textStyle="normal"
+                android:clickable="true"
+                android:onClick="playMovie"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730328516370",
+    "firebase_url": "https://watchion-3224e.firebaseio.com",
+    "project_id": "watchion-3224e",
+    "storage_bucket": "watchion-3224e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730328516370:android:0537279c1b33e53cb515cb",
+        "android_client_info": {
+          "package_name": "com.example.watchionbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730328516370-646cmqadm2i0alq38alfnl7v53bnq4kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVKxFQqhgH1HVgy7N7JAIIH6I8CmgU66s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730328516370-646cmqadm2i0alq38alfnl7v53bnq4kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
